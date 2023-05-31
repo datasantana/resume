@@ -3,147 +3,301 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datasantana resume</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>datasantana | resume</title>
     <link rel="stylesheet" href="https://use.typekit.net/gec2vrh.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="container" id="header">
-            <h1 id="name">Juan David Linares Santana | <a href="https://github.com/datasantana">@datasantana</a></h1>
-            <h2 id="title">Extended web resume</h2>
-            <h3 id="contact">juan.linares@geostudio.com | <a href="https://www.linkedin.com/in/jdlinares/">LinkedIn</a> | <a href="https://datasantana.com/">Portfolio</a></h3>
+    <div class="header">
+        <div class="header-container">
+            <header class="brand">
+                <div class="brand-name">
+                    <img src="./assets/images/icons8-circled-3-100.png" alt="datasantana logo" class="logo">
+                    <h1>datasantana</h1>
+                </div>
+                <div class="connect">
+                    <button class="btn">
+                        <a href="https://www.linkedin.com/in/jdlinares/" target="_blank">Connect</a>
+                    </button>
+                </div>
+            </header>
         </div>
-    </header>
-        <hr />
-        <div class="macro" id="body">
-            <div class="container" id="summary">
-                <h2>Summary</h2>
-                    <h3 id="profile">GIS specialist | Spatial data analyst | Spatial data engineer | Geospatial data manager</h3>
-                    <p id="description">
-                        <ul>
-                            <li>
-                                <strong>Innovative Geographic Information Systems (GIS) specialist</strong> with 10 years of experience in spatial data product design and development for land management, urban-regional planning, and landscape change assessment. High skilled spatial data analyst using state-of-the-art stack of GIS technologies and methods for providing a data-oriented approach to problem solving through high quality maps, spatial analysis, and applications.
-                            </li>
-                            <li>
-                                Present experience on data engineering for GIS app development and knowledge of DevOps and Agile frameworks applied to spatial data pipelines for enterprise-level solutions on cloud architectures. Applied standards for geographic data product design and quality assessment through the geographic information lifecycle.
-                            </li>
-                            <li>
-                                Cartographer and web-app developer with spatial-enabled capabilities such like web maps and dashboards for substantial amounts of data visualization and reporting. Managed to model databases with billions of records for creating stunning dynamic web maps and charts based on users' needs and business requirements.
-                            </li>
-                            <li>
-                                Developed skills that that complemented an architectural, urban-regional planning and landscape design background with a data-oriented approach and a particularly interesting on geospatial technologies, software development, data science and cloud computing applied to problem solving in complex scenarios such like land policymaking, cadastral administration, and deforestation prevention.
-                            </li>
-                        </ul>
-                    </p>
-            </div>
-            <hr />
-            <div class="container" id="skills">
-                <h2>Areas of expertise</h2>
-                    <p>
-                        <ol>
-                            <li>Geographic Information Systems (GIS)</li>
-                            <li>ArcGIS Platform - QGIS stack</li>
-                            <li>Remote sensing (RS)</li>
+    </div>
+    <div class="content">
+        <div class="content-container">
+            <div class="layout-container">
+                <div class="summary">
+                    <div class="summary-elements">
+                        <div class="description">
+                            <h2 id="profile">GIS specialist | Spatial data analyst | Spatial data engineer | Geospatial data manager</h2>
+                        </div>
+                        <div class="summary-card">
+                            <h3>Hi! I'm Juan David Linares Santana</h3>
+                            <h2 class="description">
+                                +10 years of experience
+                            </h2>
+                            <div class="description-features">
+                                <div>
+                                    <img src="./assets/images/icons8-database-50.png" alt="database icon">
+                                    <p>Spatial data product design and development</p>
+                                </div>
+                                <div>
+                                    <img src="./assets/images/icons8-map-48.png" alt="map icon">
+                                    <p>GIS technologies for cartography, spatial analysis, and web applications</p>
+                                </div>
+                                <div>
+                                    <img src="./assets/images/icons8-cloud-refresh-48.png" alt="cloud icon">
+                                    <p>Data engineering, DevOps, and Agile frameworks for enterprise-level solutions on cloud architectures</p>
+                                </div>
+                            </div>
+                            <div class="connect">
+                                <button class="btn-pt">
+                                    <a href="https://datasantana.com/" target="_blank">Portfolio</a>
+                                </button>
+                                <button class="btn">
+                                    <a href="https://www.linkedin.com/in/jdlinares/" target="_blank">Connect</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience">
+                    <h2 class="section-title">Timeline</h2>
+                    <!--GeoStudio experience-->
+                    <div class="event-container geostudio-exp">
+                        <div class="event-card">
+                            <div class="event-title">
+                                <!--Image placeholder-->
+                                <p class="event-date">Oct 2020 - Dec 2022</p>
+                                <h4>Spatial data engineer</h4>
+                            </div>
+                            <div class="event-description">
+                                <p>
+                                    Developed custom software features with spatial capabilities enabled as part of enterprise level data analysis solutions for both private and public sector companies. Produced various data products from satellite imagery processing for land cover analysis and monitoring based on advanced Machine Learning (ML) and Remote Sensing (RS) techniques.
+                                </p>
+                            </div>
+                        </div> 
+                        <div class="event-card">
+                            <div class="event-title">
+                                <!--Image placeholder-->
+                                <p class="event-date">Sep 2017 - Present</p>
+                                <h4>Partner, CTO</h4>
+                            </div>
+                            <div class="event-description">
+                                <p>
+                                    Supported enterprise processes for the implementation of software solutions and methodologies for the company's core business units. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="org-container geostudio">
+                        <div class="org-card">
+                            <div class="org-title collapsible">
+                                <h5 style="text-align: right;">GeoStudio</h5>
+                            </div>
+                            <div class="org-descrption collapsible-content">
+                                <p style="text-align: right;">
+                                    Specialized consulting firm on geographic data analysis using advanced technologies and interdisciplinary methodologies for knowledge construction in data-driven decision making; especially in initiatives with a high environmental and social impact with a territorial approach. 
+                                </p>
+                                <button class="btn">
+                                    <a href="https://www.geostudio.com.co/" target="_blank">Visit</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Geografía Urbana experience-->
+                    <div class="event-container geourb-exp">
+                        <div class="event-card">
+                            <div class="event-title">
+                                <!--Image placeholder-->
+                                <p class="event-date">Oct 2017 - Jan 2019</p>
+                                <h4>Geospatial data analyst (consultant)</h4>
+                            </div>
+                            <div class="event-description">
+                                <p>
+                                    Produced various spatial data products and documentation such like cartography, databases (GDB) that supported planning, design and decision-making processes for urban infrastructure and territorial ordinance.
+                                </p>
+                            </div>
+                        </div> 
+                        <div class="event-card">
+                            <div class="event-title">
+                                <!--Image placeholder-->
+                                <p class="event-date">Sep 2012 - Sep 2017</p>
+                                <h4>Project analyst</h4>
+                            </div>
+                            <div class="event-description">
+                                <p>
+                                    Supported planning and design processes for various infrastructure, land property readjustment and real estate development projects.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="org-container geourb">
+                        <div class="org-card">
+                            <div class="org-title collapsible">
+                                <h5 style="text-align: right;">Geografía Urbana</h5>
+                            </div>
+                            <div class="org-descrption collapsible-content">
+                                <p style="text-align: right;">
+                                    Consulting firm on urban and regional planning, urban design, and real estate project development with broad experience in city design in Latin America.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--MGITG master-->
+                    <div class="event-container master-exp">
+                        <div class="event-card">
+                            <div class="event-title">
+                                <!--Image placeholder-->
+                                <p class="event-date">Degree in progress; anticipated completion in Fall 2023</p>
+                                <h4>Spatial Data and Geotechnologies Management, MSc</h4>
+                            </div>
+                            <div class="event-description">
+                                <p>
+                                    This program covers several key topics. Ranging from several areas of interest such as Geographic Information Systems, Remote Sensing, and Spatial Data Infrastructure. The program also includes courses in applied computing for geographic information and seminars on current topics in computing.
+                                </p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="org-container master">
+                        <div class="org-card">
+                            <div class="org-title collapsible">
+                                <h5 style="text-align: right;">Universidad Sergio Arboleda</h5>
+                            </div>
+                            <div class="org-descrption collapsible-content">
+                                <p style="text-align: right;">
+                                    Agreement signed with the Instituto Geográfico Agustín Codazzi - IGAC
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Architecture Bachelor-->
+                    <div class="event-container bacharq-exp">
+                        <div class="event-card">
+                            <div class="event-title">
+                                <!--Image placeholder-->
+                                <p class="event-date">May 2013</p>
+                                <h4>Architecture, BachArq</h4>
+                            </div>
+                            <div class="event-description">
+                                <p>
+                                    Multi-scale articulation of sustainable urban design methods for irregular urban context improvement and intervention in Bogotá, Colombia.<br />
+                                    President's Medals Student Awards 2013, Royal Institute of British Architects (RIBA), dissertation medal candidate.
+                                </p>
+                                <button class="btn">
+                                    <a href="http://www.presidentsmedals.com/Entry-13910">Presidents Medals: Juan Amarillo Eco-circuit</a>
+                                </button>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="org-container bacharq">
+                        <div class="org-card">
+                            <div class="org-title collapsible">
+                                <h5 style="text-align: right;">Corporación Universidad Piloto de Colombia</h5>
+                            </div>
+                            <div class="org-descrption collapsible-content">
+                                <p style="text-align: right;">
+                                    Royal Institute of British Architects (RIBA) validated program
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <blockquote>
+                        <p>I have a data-oriented approach to problem-solving, which has helped me to solve complex problems in land policymaking, cadastral administration, and deforestation prevention scenarios.</p>
+                    </blockquote>
+                    <div class="collapsible-container">
+                        <p class="collapsible">Geographic Information Systems (GIS) & Remote Sensing (RS)</p>
+                        <div class="collapsible-content">
+                            <li>ArcGIS Platform</li>
+                            <li>QGIS stack</li>
                             <li>Spatial analysis (geoprocessing automation)</li>
                             <li>Cartography</li>
+                            <li>Satellite imagery processing</li>
+                            <li>ESA - SNAP</li>
+                            <li>Orfeo Toolbox (OTB)</li>
+                            <li>Land Use Land Cover classification (LULC)</li>
+                            <li>Machine Learning for Earth Observation</li>
+                        </div>
+                        <p class="collapsible">Data management</p>
+                        <div class="collapsible-content">
                             <li>Geodatabase modeling and management</li>
                             <li>PostGIS - PostgreSQL (SQL)</li>
                             <li>Geonode - Geoserver</li>
                             <li>ETL - Data pipelines</li>
+                        </div>
+                        <p class="collapsible">Software development</p>
+                        <div class="collapsible-content">
                             <li>Python scripting</li>
-                            <li>HTML - CSS - JavaScript</li>
-                            <li>Data analysis and visualization</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Web mapping</li>
+                        </div>
+                        <p class="collapsible">Data analysis and visualization</p>
+                        <div class="collapsible-content">
+                            <li>Bussines analytics</li>
                             <li>Power BI</li>
-                            <li>Web mapping (Software development)</li>
-                            <li>Cloud computing (Azure management and monitoring)</li>
-                            <li>Docker</li>
+                            <li>Pandas - Geopandas</li>
+                            <li>Numpy</li>
+                            <li>Mapthplotlib</li>
+                            <li>Seaborn</li>
+                        </div>
+                        <p class="collapsible">Cloud computing</p>
+                        <div class="collapsible-content">
+                            <li>Azure resource Architecting</li>
+                            <li>Azure resources management and monitoring (ARM)</li>
+                            <li>Conteinerization (Docker)</li>
+                        </div>
+                        <p class="collapsible">Spatial product design</p>
+                        <div class="collapsible-content">
                             <li>Agile methodologies</li>
                             <li>DevOps - Azure DevOps</li>
+                            <li>Source control</li>
                             <li>Git - GitHub</li>
-                            <li>Product Management</li>
-                            <li>Data quality assurance</li>
-                        </ol>
-                    </p>
-            </div>
-            <hr />
-            <div class="container" id="experience">
-                <h2>Experinence</h2>
-                    <h3>Geo Studio, Bogotá, Colombia</h3>
-                    <p>
-                        Specialized consulting firm on geographic data analysis using advanced technologies and interdisciplinary methodologies for knowledge construction in data-driven decision making; especially in initiatives with a high environmental and social impact with a territorial approach.
-                    </p>
-                    <h3>Oct 2020 - Dec 2022</h3>
-                    <h4>Spatial data engineer</h4>
-                    <p>
-                        Developed custom software features with spatial capabilities enabled as part of enterprise level data analysis solutions for both private and public sector companies. Produced various data products from satellite imagery processing for land cover analysis and monitoring based on advanced Machine Learning (ML) and Remote Sensing (RS) techniques.
-                        <ul>
-                            <li>Data Engineering | GeoAGRO - managed a whole data lifecycle form requirement assessment to design and development of spatial data products such like web maps, dashboards and geographic data hubs that are productive today. Also, preformed automated processes of map making and publishing using ArcGIS platform products.</li>
-                            <li>Remote Sensing | Land Use Land Cover (LULC) - designed data-pipeline method for satellite imagery processing for coverage/feature extraction and time-series change analysis under Corine Land Cover Standard. Performed satellite imagery processing and analysis for more than eighteen millions of hectares.</li>
-                            <li>Software Development | Data Collector - developed webapp with location capabilities for field data capture under a record time, thanks to the implementation of DevOps and Agile frameworks for software development.</li>
-                            <li>Database (GDB) modelling and administration | Various projects - processed both complex and specific domain requirements for designing logic and physical models for spatial databases with billions of records that helped decision makers to prevent deforestation or assess investment policy for rural development in Colombia.</li>
-                        </ul>
-                    </p>
-                    <h3>Sep 2017 - Present</h3>
-                    <h4>Partner, CTO</h4>
-                    <p>
-                        Supported enterprise processes for the implementation of software solutions and methodologies for the company's core business units. 
-                        <ul>
-                            <li>Cloud infrastructure management - designed and deployed cloud architectures and infrastructure components in Azure for supporting data analysis, processing, and warehousing.</li>
-                            <li>Software licensing and subscriptions administration - managed users and subscriptions to Microsoft office for team members. Implemented security and sharing policies for SharePoint and OneDrive.</li>
-                            <li>IT support - advised development and implementation of automated tasks for managing data inside and outside company's business units.</li>
-                        </ul>
-                    </p>
-                    <h3>Geografía Urbana, Bogotá, Colombia</h3>
-                    <p>
-                        Consulting firm on urban and regional planning, urban design, and real estate project development with broad experience in city design in Latin America.
-                    </p>
-                    <h3>Oct 2017 - Jan 2019</h3>
-                    <h4>Geospatial data analyst (consultant)</h4>
-                    <p>
-                        Produced various spatial data products and documentation such like cartography, databases (GDB) that supported planning, design and decision-making processes for urban infrastructure and territorial ordinance.
-                        <ul>
-                            <li>Cartography - captured and processed primary data using Unmanned Aerial Vehicles (UAV) and photogrammetric techniques for producing data products such like Orthomosaics, Surface Elevation Models and vector features.</li>
-                            <li>Database (GDB) modelling and documentation - managed different data sources (primary and secondary) for modeling. spatial databases which supported map making and methodologies for urban design and landscape administration.</li>
-                        </ul>
-                    </p>
-                    <h3>Sep 2012 - Sep 2017</h3>
-                    <h4>Project analyst</h4>
-                    <p>
-                        Supported planning and design processes for various infrastructure, land property readjustment and real estate development projects.
-                        <ul>
-                            <li>Urban and landscape design - integrated spatial data analysis and GIS technologies to design process and CAD drafting of 140 kilometers of bike paths in Santiago de Cali, Colombia.</li>
-                            <li>Real estate development - designed layout of various land property readjustment plans and housing projects using GIS and CAD technologies.</li>
-                        </ul>
-                    </p>
-            </div>
-            <hr />
-            <div class="container" id="education">
-                <h2>Education</h2>
-                    <h3>Spatial Data and Geotechnologies Management, MSc</h3>
-                    <p>
-                        Universidad Sergio Arboleda, Bogotá, Colombia<br />
-                        Degree in progress; anticipated completion in Fall 2023
-                    </p>
-                    <h3>Architecture, BachArq</h3>
-                    <p>
-                        Corporación Universidad Piloto de Colombia, Bogotá, Colombia<br />
-                        Multi-scale articulation of sustainable urban design methods for irregular urban context improvement and intervention in Bogotá, Colombia.<br />
-                        President's Medals Student Awards 2013, Royal Institute of British Architects (RIBA), dissertation medal candidate.
-                        <a href="http://www.presidentsmedals.com/Entry-13910">Presidents Medals: Juan Amarillo Eco-circuit</a>
-                    </p>
-                    <h2>Certifications</h2>
-                        <h3>Microsoft Certified: Azure Fundamentals</h3>
-                        <p>Prove knowledge of cloud computing concepts, models, and services, such as public, private, and hybrid cloud, in addition to infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS). Show expertise on how Azure supports security, privacy, compliance, and trust.</p>
-                        <a href="https://www.credly.com/badges/94bd65f1-7797-4632-bc4e-8e448ee8bbfa/public_url">View certificate</a>
-                        <h3>Aeronautic School of Colombia: Unmanned Aerial Vehicles Operator</h3>
-                        <p>Prove knowledge of Colombian civil aeronautics regulations and mandatory training for UAV/RPAS or Drone operation in national territory.</p>
+                            <li>Geographic data specification (ISO 19131)</li>
+                            <li>Data quality assurance (ISO 19157)</li>
+                        </div>
+                    </div>
+                    <!--Badges-->
+                    <div class="badges">
+                        <h2>Certifications</h2>
+                        <div class="badges-container">
+                            <div class="badge collapsible-container">
+                                <div class="badge-title collapsible">
+                                    <p>Microsoft Certified: Azure Fundamentals</p>
+                                </div>
+                                <div class="badge-description collapsible-content">
+                                    <p>Prove knowledge of cloud computing concepts, models, and services, such as public, private, and hybrid cloud, in addition to infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS). Show expertise on how Azure supports security, privacy, compliance, and trust.</p>
+                                    <button class="btn">
+                                        <a href="https://www.credly.com/badges/94bd65f1-7797-4632-bc4e-8e448ee8bbfa/public_url">View certificate</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="badge">
+                                <div class="badge-title collapsible">
+                                    <p>Aeronautic School of Colombia: Unmanned Aerial Vehicles Operator</p>
+                                </div>
+                                <div class="badge-description collapsible-content">
+                                    <p>Prove knowledge of Colombian civil aeronautics regulations and mandatory training for UAV/RPAS or Drone operation in national territory.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="footer">
+                    <footer>
+                        <p>© 2023 Juan Davdid Linares Santana.  All Rights Reserved.</p>
+                    </footer>
+                </div>
             </div>
         </div>
-        <hr />
-    <footer>
-        <div class="container" id="footer"></div>
-        <p>© 2023 Juan Davdid Linares Santana.  All Rights Reserved.</p>
-    </footer>
+    </div>
+    <script src="./scripts/animations.js"></script>
+</body>
+</html>
+
+    </div>
 </body>
 </html>
